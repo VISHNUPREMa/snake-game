@@ -1,0 +1,23 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.btn {
+    background-color: black;
+    color: lime;
+    padding: 10px 20px;
+    border: 2px solid lime;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: lime;
+    color: black;
+}
+
+.btn:active {
+    transform: translateY(2px);
+}
